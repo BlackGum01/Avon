@@ -1,0 +1,149 @@
+@font-face {
+	font-family: 'Oswald';
+	src: url('Oswald-Bold.ttf');
+	font-weight: normal;
+	font-style: normal;
+  }
+h1 {
+	color: rgb(0, 0, 0);
+	font-size: 18px;
+	font-family: 'Oswald', sans-serif format('ttf');
+}
+h2 {
+	color: rgb(0, 0, 0);
+	font-size: 17px;
+	font-family: 'Oswald', sans-serif format('ttf');
+}
+
+p {
+	color: black;
+	font-size: 18px;
+	font-family: Times New Roman, serif;
+}
+
+img {
+	width: 200px;
+	height: 200px;
+	align-items: left;
+}
+
+body {
+	background-image: radial-gradient(circle at center, #3c00ff, #3c0c91);
+	justify-content: center;
+	font-family: 'Oswald', sans-serif format('ttf');
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  width: 1400px;
+  height: 3000px;
+  border-radius: 25px;
+  background-color: rgb(230, 228, 228);
+  margin: 50px;
+}
+.row {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	flex-direction: column;
+  }
+.rectangle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 250px;
+	height: 400px;
+	border-radius: 25px;
+	background-color: rgb(255, 255, 255);
+    margin: 50px;
+	flex-direction: column;
+  }
+
+input[type="button"] {
+	width: 120px;
+	margin-left: 35px;
+	display: block;
+  }
+
+button
+	{
+		display: inline-block;
+		margin: 5px;
+		padding: 10px 20px;
+		border-radius: 5px;
+		font-size: 16px;
+		font-weight: bold;
+		text-align: center;
+		text-decoration: none;
+		cursor: pointer;
+		color: #fff;
+		background-color: #bf34e6;
+		border: 2px solid #bf32de;
+	  }
+
+button:hover {
+    background-color: #2f4cef; 
+    color: rgb(255, 255, 255);
+	background-color: #00b2ff;
+    border: 2px solid #00b2ff;
+}
+#butoane-container {
+    display: none;
+    transition: all 0.5s ease-in-out; /* adaugam o animatie la afisarea/ascunderea containerului */
+  }
+  
+  .butoane-afisate {
+    display: block !important; /* important pentru a forta afisarea containerului cand adaugam clasa */
+    opacity: 1;
+  }
+  
+  .butoane-ascunse {
+    display: none !important; /* important pentru a forta ascunderea containerului cand adaugam clasa */
+    opacity: 0;
+  }
+  .chatgpt-button {
+	display: inline-block;
+	margin: 5px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+  }
+
+  .chatgpt-primary-button {
+	color: #fff;
+	background-color: #00a0e3;
+	border: 2px solid #00a0e3;
+  }
+
+  .chatgpt-primary-button:hover {
+	background-color: #00b2ff;
+	border: 2px solid #00b2ff;
+  }
+
+  .chatgpt-secondary-button {
+	color: #00a0e3;
+	background-color: #fff;
+	border: 2px solid #00a0e3;
+  }
+
+  .chatgpt-secondary-button:hover {
+	color: #fff;
+	background-color: #00a0e3;
+	border: 2px solid #00a0e3;
+  }
+
+  .butoane-container-ascuns {
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+  }
+
+  .butoane-container-vizibil {
+	opacity: 1;
+	transition: opacity 0.5s ease-in-out;
+  }

@@ -28,8 +28,7 @@ img {
 }
 
 body {
-	background-image: radial-gradient(circle at center, #3c00ff, #3c0c91);
-	justify-content: center;
+	background-image: radial-gradient(circle, #8b1355, #6b34cc);
 	font-family: 'Oswald', sans-serif format('ttf');
 }
 
@@ -37,11 +36,13 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-  width: 1400px;
-  height: 3000px;
   border-radius: 25px;
   background-color: rgb(230, 228, 228);
-  margin: 50px;
+  margin-left: 220px;
+  margin-top: 50px;
+  margin-right: 220px;
+  width: 1450px;
+	height: auto;
 }
 .row {
 	display: flex;
@@ -50,7 +51,7 @@ body {
 	flex-direction: column;
   }
 .rectangle {
-	display: flex;
+	display:flex;
 	justify-content: center;
 	align-items: center;
 	width: 250px;
@@ -60,12 +61,34 @@ body {
     margin: 50px;
 	flex-direction: column;
   }
-
+.logo-background{
+	display: flex;	
+	align-items: center;
+	width: 450px;
+	height: 130px;
+	border-radius: 5px;
+	background-color: rgb(255, 255, 255);
+    margin-left: 50px;
+	margin-top: 50px;
+	flex-direction: column;
+	content: url(sources/Avon-logo.png);
+}
+.logolocatie{
+	width: 15px;
+	height: 15px;
+}
 input[type="button"] {
 	width: 120px;
 	margin-left: 35px;
 	display: block;
   }
+.locatie{
+	width: 200px;
+	height: 90px;
+	background-color: rgb(255, 255, 255);
+	align-items: center;
+}
+
 
 button
 	{
